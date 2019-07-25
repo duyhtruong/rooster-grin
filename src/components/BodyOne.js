@@ -1,13 +1,13 @@
 import React from 'react';
 
-class Footer extends React.Component{
+class BodyOne extends React.Component{
     render(){
         return(
             <div className='bodyHeight-75vh'>
-                Footer
+                BodyOne
             </div>
         )
     }
 }
 
-export default Footer;
+export default BodyOne;

@@ -1,0 +1,32 @@
+.headerBody{
+    background-image: url('./assets/hero.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.headerLogo {
+    width: 250px;
+}
+
+.headerTitle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.bodyHeight-75vh{
+    height: 75vh;
+}
+
+.bodyTwoBanner{
+    background-image: url('./assets/banner-1.jpg');
+    background-size: cover;
+}
+
+.bodyFourBanner{
+    background-image: url('./assets/banner-2.jpg');
+    background-size: cover;
+}
