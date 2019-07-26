@@ -21,6 +21,10 @@
     height: 75vh;
 }
 
+.bodyImgTest{
+    background-color: red;
+}
+
 .bodyTwoBanner{
     background-image: url('./assets/banner-1.jpg');
     background-size: cover;
@@ -29,4 +33,10 @@
 .bodyFourBanner{
     background-image: url('./assets/banner-2.jpg');
     background-size: cover;
+}
+
+.imgWidth-100{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
 }
