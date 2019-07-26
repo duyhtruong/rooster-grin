@@ -7,8 +7,8 @@ class Header extends React.Component{
             <div className='headerBody'>
                 <img className='headerLogo' src={logoWhite} alt='Logo White' />
                 <div className='headerTitle'>
-                    <p>Welcome to</p>
-                    <p>Rooster Grin</p>
+                    <p className='headerTitle-Welcome'>WELCOME TO</p>
+                    <p className='headerTitle-Secondary'>Rooster Grin</p>
                     <button> button </button>
                 </div>
             </div>

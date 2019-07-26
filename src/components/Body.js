@@ -3,6 +3,7 @@ import BodyOne from './BodyOne';
 import BodyTwo from './BodyTwo';
 import BodyThree from './BodyThree';
 import BodyFour from './BodyFour';
+import BodyFive from './BodyFive';
 
 class Body extends React.Component{
     render(){
@@ -12,6 +13,7 @@ class Body extends React.Component{
                 <BodyTwo />
                 <BodyThree />
                 <BodyFour />
+                <BodyFive />
             </div>
         )
     }

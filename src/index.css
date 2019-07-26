@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Londrina+Outline|Roboto:400,500,700&display=swap');
+
 .headerBody{
     background-image: url('./assets/hero.jpg');
     background-repeat: no-repeat;
@@ -14,11 +16,44 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    line-height: 5em;
     height: 100vh;
+}
+
+.headerTitle-Welcome{
+    font-family: 'Londrina Outline', cursive;
+    font-size: 7em;
+    color: white;
+}
+
+.headerTitle-Secondary{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 5em;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+}
+
+.bodyTitle{
+    font-size: 3em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+.bodyTitle-Purple{
+    color: #8e44ad;
 }
 
 .bodyHeight-75vh{
     height: 75vh;
+}
+
+.bodyHeight-50vh{
+    height: 50vh;
+}
+
+.bodyHeight-25vh{
+    height: 25vh;
 }
 
 .bodyImgTest{
@@ -39,4 +74,25 @@
     object-fit: cover;
     height: 100%;
     width: 100%;
+}
+
+.bodyText-Center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.background-Gray{
+    background-color: #ecf0f1;
+}
+
+.footer-Center{
+    text-align: center;
+}
+
+.footer-Icon{
+    display: flex;
+    justify-content: center;
 }
