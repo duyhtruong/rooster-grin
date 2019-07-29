@@ -1,20 +1,20 @@
 import React from 'react';
-import BodyOne from './BodyOne';
-import BodyTwo from './BodyTwo';
-import BodyThree from './BodyThree';
-import BodyFour from './BodyFour';
-import BodyFive from './BodyFive';
+import BodyFirstRow from './BodyFirstRow';
+import BodySecondRow from './BodySecondRow';
+import BodyThirdRow from './BodyThirdRow';
+import BodyFourthRow from './BodyFourthRow';
+import BodyFifthRow from './BodyFifthRow';
 
 
 class Body extends React.Component{
     render(){
         return(
             <div>
-                <BodyOne />
-                <BodyTwo />
-                <BodyThree />
-                <BodyFour />
-                <BodyFive />
+                <BodyFirstRow />
+                <BodySecondRow />
+                <BodyThirdRow />
+                <BodyFourthRow />
+                <BodyFifthRow />
             </div>
         )
     }

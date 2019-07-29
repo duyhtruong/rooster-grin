@@ -4,7 +4,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
-class BodyTwo extends React.Component{
+class BodySecondRow extends React.Component{
     render(){
         return(
             <Container fluid={true}>
@@ -22,4 +22,4 @@ class BodyTwo extends React.Component{
     }
 }
 
-export default BodyTwo;
+export default BodySecondRow;

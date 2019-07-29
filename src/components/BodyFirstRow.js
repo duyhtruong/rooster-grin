@@ -5,14 +5,15 @@ import Col from 'react-bootstrap/Col';
 
 import imgClimb from '../assets/img-1.jpg';
 
-class BodyOne extends React.Component{
 
+
+class BodyFirstRow extends React.Component{
 
     renderColumns =()=>{
         return(
                 <Container fluid={true}>
                 <Row noGutters={true}>
-                    <Col sm sm className='bodyHeight-75vh'> 
+                    <Col sm className='bodyHeight-75vh'> 
                         <div className='bodyText-Center'>
                             <p className='bodyTitle bodyTitle-Purple'>LOREM IPSUM</p>
                             <p>
@@ -44,4 +45,4 @@ class BodyOne extends React.Component{
     }
 }
 
-export default BodyOne;
+export default BodyFirstRow;

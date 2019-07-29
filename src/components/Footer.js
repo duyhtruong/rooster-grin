@@ -8,7 +8,7 @@ class Footer extends React.Component{
     renderFooter = () => {
         return(
             <div className='footer-Center'>
-                <p>Follow Us:</p>
+                <p className='footerText'>Follow Us:</p>
                 <div className='footer-Icon'>
                     <img className='footerSocial-Logo' src={instagram} alt='instagram'/>
                     <img className='footerSocial-Logo' src={facebook} alt='facebook'/>

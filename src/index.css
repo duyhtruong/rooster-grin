@@ -200,17 +200,51 @@
     font-family: 'Roboto', sans-serif;
     
 }
-.carouselItem{
-   
+
+.carouselCaption-Title{
+    color: #8e44ad;
+    text-align:center;
+    font-weight: 500;
+    font-size: 1em;
+    letter-spacing: 0.05em;
 }
 
-.carousel-control-next,
-.carousel-control-prev {
-    filter: invert(100%);
+.carousel-control-prev-icon{
+    color: black;
+    background-color: black;
+}
+
+.carousel-control-next-icon{
+    background-color: black;
+}
+.carousel-indicators li {
+    background-color: #e67e22;
+}
+
+.slide {
+    padding-bottom: 2em;
+    padding-top: 2em;
+}
+
+.customNextIcon{
+    color: #8e44ad;
+    font-size: 2em;
+}
+
+.customPrevIcon{
+    color: #8e44ad;
+    font-size: 2em;
 }
 
 .footer-Center{
     text-align: center;
+}
+
+.footerText{
+    padding-top: 1em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    letter-spacing: 0.05em;
 }
 
 .footer-Icon{
@@ -221,5 +255,10 @@
 .footerSocial-Logo{
     height: 50px;
     width: 50px;
-    color: #8e44ad;
+    margin-right: 0.5em;
+    margin-left: 0.5em;
+}
+
+.fadeIn{
+    animation-duration: 6s;
 }

@@ -6,7 +6,7 @@ class Header extends React.Component{
         return(
             <div className='headerBody'>
                 <img className='headerLogo' src={logoWhite} alt='Logo White' />
-                <div className='headerTitle'>
+                <div className='headerTitle animated fadeIn'>
                     <p className='headerTitle-Welcome'>WELCOME TO</p>
                     <p className='headerTitle-Secondary'>Rooster Grin</p>
                     <button className='buttons button-Purple'>BUTTON BUTTON</button>

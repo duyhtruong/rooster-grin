@@ -8,7 +8,7 @@ import logo_hygiene from '../assets/home-hygiene.svg';
 import logo_lab from '../assets/home-lab.svg';
 import logo_retention from '../assets/home-retention.svg';
 
-class BodyThree extends React.Component{
+class BodyThirdRow extends React.Component{
 
     renderColumns =()=>{
         return(
@@ -31,13 +31,13 @@ class BodyThree extends React.Component{
                         <div className='bodyText-Center'>
                         <Row>
                             <Col className='bodyLogoText-Align' sm>
-                                <div className='bodyLogo-Border'>
-                                    <img className='bodyLogo' src={logo_expertise} alt='Logo Expert'/>
+                                <div className='bodyLogo-Border animated infinite tada delay-2s slower'>
+                                    <img className='bodyLogo ' src={logo_expertise} alt='Logo Expert'/>
                                 </div>
                                 <p className='bodyLogo-Label'>LOREM</p>
                             </Col>
                             <Col className='bodyLogoText-Align' sm>
-                                <div className='bodyLogo-Border'>
+                                <div className='bodyLogo-Border animated infinite tada delay-2s slower'>
                                     <img className='bodyLogo' src={logo_hygiene} alt='Logo Expert'/>
                                 </div>
                                 <p className='bodyLogo-Label'>LOREM IPSUM</p>
@@ -45,16 +45,16 @@ class BodyThree extends React.Component{
                         </Row>
                         <Row>
                             <Col className='bodyLogoText-Align' sm>
-                                <div className='bodyLogo-Border'>
+                                <div className='bodyLogo-Border animated infinite tada delay-2s slower'>
                                     <img className='bodyLogo' src={logo_lab} alt='Logo Expert'/>
                                 </div>
-                                <p className='bodyLogo-Label'>LOREM</p>
+                                <p className='bodyLogo-Label'>LOREM IPSUM</p>
                             </Col>
                             <Col className='bodyLogoText-Align' sm>
-                                <div className='bodyLogo-Border'>
+                                <div className='bodyLogo-Border animated infinite tada delay-2s slower'>
                                     <img className='bodyLogo' src={logo_retention} alt='Logo Expert'/>
                                 </div>
-                                <p className='bodyLogo-Label'>LOREM IPSUM</p>
+                                <p className='bodyLogo-Label'>LOREM</p>
                             </Col>
                         </Row>
                         </div>
@@ -75,4 +75,4 @@ class BodyThree extends React.Component{
     }
 }
 
-export default BodyThree;
+export default BodyThirdRow;
