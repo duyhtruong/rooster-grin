@@ -9,8 +9,9 @@ class Header extends React.Component{
                 <div className='headerTitle'>
                     <p className='headerTitle-Welcome'>WELCOME TO</p>
                     <p className='headerTitle-Secondary'>Rooster Grin</p>
-                    <button> button </button>
+                    <button className='buttons button-Purple'>BUTTON BUTTON</button>
                 </div>
+                
             </div>
         )
     }

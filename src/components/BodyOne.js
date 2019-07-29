@@ -12,7 +12,20 @@ class BodyOne extends React.Component{
         return(
                 <Container fluid={true}>
                 <Row noGutters={true}>
-                    <Col sm className='bodyHeight-75vh'> <div className='bodyText-Center'><p className='bodyTitle bodyTitle-Purple'>Title here</p><p>body text here</p></div> </Col>
+                    <Col sm sm className='bodyHeight-75vh'> 
+                        <div className='bodyText-Center'>
+                            <p className='bodyTitle bodyTitle-Purple'>LOREM IPSUM</p>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                Morbi eget turpis vel sapien dignissim pretium. Quisque tempus 
+                                arcu at sapien consectetur aliquet. Integer quis sodales nulla. 
+                                In a lectus neque. Mauris venenatis tellus diam, sit amet venenatis 
+                                lorem fringilla vel. Maecenas enim lorem, pharetra vitae placerat ut, 
+                                tincidunt id mauris. Mauris auctor volutpat augue non ultricies.
+                            </p>
+                            <a href='' className='links'> > Lorem Ipsum</a>
+                        </div> 
+                    </Col>
 
                     <Col sm className='bodyHeight-75vh'><img className='imgWidth-100' src={imgClimb} alt='Climb' /></Col>
                 </Row>
