@@ -10,8 +10,8 @@ class Footer extends React.Component{
             <div className='footer-Center'>
                 <p className='footerText'>Follow Us:</p>
                 <div className='footer-Icon'>
-                    <img className='footerSocial-Logo' src={instagram} alt='instagram'/>
-                    <img className='footerSocial-Logo' src={facebook} alt='facebook'/>
+                    <a href='https://www.roostergrin.com/' target='_blank' rel='noopener noreferrer'><img className='footerSocial-Logo' src={instagram} alt='instagram'/></a>
+                    <a href='https://www.facebook.com/RoosterGrin/' target='_blank' rel='noopener noreferrer'><img className='footerSocial-Logo' src={facebook} alt='facebook'/></a>
                 </div>
             </div>
             )

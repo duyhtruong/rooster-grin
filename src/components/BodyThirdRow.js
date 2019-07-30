@@ -23,7 +23,7 @@ class BodyThirdRow extends React.Component{
                             arcu at sapien consectetur aliquet. Integer quis sodales nulla. 
                          
                             </p>
-                            <a href='' className='links'> > Lorem Ipsum</a>
+                            <a href='https://www.roostergrin.com/' target='_blank' rel='noopener noreferrer' className='links'> > Lorem Ipsum</a>
                         </div> 
                     </Col>
 

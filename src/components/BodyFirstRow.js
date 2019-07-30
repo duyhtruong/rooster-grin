@@ -24,7 +24,7 @@ class BodyFirstRow extends React.Component{
                                 lorem fringilla vel. Maecenas enim lorem, pharetra vitae placerat ut, 
                                 tincidunt id mauris. Mauris auctor volutpat augue non ultricies.
                             </p>
-                            <a href='' className='links'> > Lorem Ipsum</a>
+                            <a href='https://www.roostergrin.com/' target='_blank' rel='noopener noreferrer'  className='links'> > Lorem Ipsum</a>
                         </div> 
                     </Col>
 
