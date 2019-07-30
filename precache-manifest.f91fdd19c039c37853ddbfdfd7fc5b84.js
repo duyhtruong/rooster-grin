@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "121c0120bfed7a27076ae1e945599625",
+    "revision": "b4cc03874cb5ca1b992b48b9af36f46a",
     "url": "/rooster-grin/index.html"
   },
   {
-    "revision": "0f1fb876abcaf2e48a4d",
-    "url": "/rooster-grin/static/css/main.f750f69b.chunk.css"
+    "revision": "e52c29511f6c6b3e5f09",
+    "url": "/rooster-grin/static/css/main.652bd8e0.chunk.css"
   },
   {
-    "revision": "103fc715252a2151931d",
-    "url": "/rooster-grin/static/js/2.e2584e52.chunk.js"
+    "revision": "174fe20d7abc3857cf52",
+    "url": "/rooster-grin/static/js/2.ce4664d1.chunk.js"
   },
   {
-    "revision": "0f1fb876abcaf2e48a4d",
-    "url": "/rooster-grin/static/js/main.5a9b41ab.chunk.js"
+    "revision": "e52c29511f6c6b3e5f09",
+    "url": "/rooster-grin/static/js/main.62510216.chunk.js"
   },
   {
     "revision": "fa1a943ebf280ed79813",
@@ -28,8 +28,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/rooster-grin/static/media/banner-2.541a7d9e.jpg"
   },
   {
-    "revision": "7bc311e4e86ac578b19c3e27c1d2aa01",
-    "url": "/rooster-grin/static/media/facebook.7bc311e4.svg"
+    "revision": "231d35c69474fb708b0738278f2ff69e",
+    "url": "/rooster-grin/static/media/facebook.231d35c6.svg"
   },
   {
     "revision": "e2af670d307bfa94a7ee5ce2408dc000",
@@ -56,8 +56,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/rooster-grin/static/media/img-1.cefc8035.jpg"
   },
   {
-    "revision": "417149bccf5f7ef142c1e2aa48778220",
-    "url": "/rooster-grin/static/media/instagram.417149bc.svg"
+    "revision": "a728c1e4485b8f8c7d48309ed1bf0050",
+    "url": "/rooster-grin/static/media/instagram.a728c1e4.svg"
   },
   {
     "revision": "0d146ca16f8a3eebe272a80c2d4f695e",
