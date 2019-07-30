@@ -4,6 +4,9 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
+//Renders second row in body containing
+//one large background spanning whole width
+
 class BodySecondRow extends React.Component{
     render(){
         return(

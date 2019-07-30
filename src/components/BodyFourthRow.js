@@ -4,6 +4,9 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
+//Renders fourth row in body containing large
+//background image spanning whole width
+
 class BodyFourthRow extends React.Component{
     render(){
         return(
@@ -13,9 +16,9 @@ class BodyFourthRow extends React.Component{
                         <div className='bodyDash-Text-Right'>
                             <p className='bodyTitle bodyTitle-Purple'>LOREM IPSUM</p>
                             <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                            Morbi eget turpis vel sapien dignissim pretium. Quisque tempus 
-                            arcu at sapien consectetur aliquet.  
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                Morbi eget turpis vel sapien dignissim pretium. Quisque tempus 
+                                arcu at sapien consectetur aliquet.  
                             </p>
                             <button className='buttons button-Orange'>BUTTON BUTTON</button>
                         </div>

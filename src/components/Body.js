@@ -5,6 +5,7 @@ import BodyThirdRow from './BodyThirdRow';
 import BodyFourthRow from './BodyFourthRow';
 import BodyFifthRow from './BodyFifthRow';
 
+//Renders Body containing multiple rows
 
 class Body extends React.Component{
     render(){

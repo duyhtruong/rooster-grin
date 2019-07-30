@@ -13,7 +13,7 @@ class App extends React.Component{
                 <Body />
                 <Footer />
             </div>
-            )
+        )
     }
 }
 

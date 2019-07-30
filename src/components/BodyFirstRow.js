@@ -1,17 +1,19 @@
 import React from 'react';
+
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
 import imgClimb from '../assets/img-1.jpg';
 
-
-
 class BodyFirstRow extends React.Component{
 
-    renderColumns =()=>{
+    //Renders first row in body
+    //Two columns, left column contains text, right column contains background image
+
+    renderColumns = () =>{
         return(
-                <Container fluid={true}>
+            <Container fluid={true}>
                 <Row noGutters={true}>
                     <Col sm className='bodyHeight-75vh'> 
                         <div className='bodyText-Center'>
@@ -24,15 +26,24 @@ class BodyFirstRow extends React.Component{
                                 lorem fringilla vel. Maecenas enim lorem, pharetra vitae placerat ut, 
                                 tincidunt id mauris. Mauris auctor volutpat augue non ultricies.
                             </p>
-                            <a href='https://www.roostergrin.com/' target='_blank' rel='noopener noreferrer'  className='links'> > Lorem Ipsum</a>
+                            <a 
+                                href='https://www.roostergrin.com/' 
+                                target='_blank' 
+                                rel='noopener noreferrer' 
+                                className='links'> > Lorem Ipsum
+                            </a>
                         </div> 
                     </Col>
 
-                    <Col sm className='bodyMobileHeight-50vh'><img className='imgWidth-100' src={imgClimb} alt='Climb' /></Col>
+                    <Col sm className='bodyMobileHeight-50vh'>
+                        <img 
+                            className='imgWidth-100' 
+                            src={imgClimb} 
+                            alt='Climb' 
+                        />
+                    </Col>
                 </Row>
-                </Container>
-        
-            
+            </Container>  
         )
     }
 

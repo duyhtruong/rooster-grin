@@ -1,10 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Londrina+Outline|Roboto:400,500,700&display=swap');
 
+/* Reset React-Bootstrap Container Paddings */
 .container-fluid{
     padding-left: 0;
     padding-right:0;
 }
-/* Header  */
+
+/* * * * * * * * * * * 
+        Header 
+* * * * * * * * * * * */
 
 .headerBody{
     background-image: url('./assets/hero.jpg');
@@ -51,8 +55,9 @@
     top: 82vh;
 }
 
-
-/* Buttons */
+/* * * * * * * * * * * 
+    Buttons / Links
+* * * * * * * * * * * */
 
 .buttons{
     line-height: 1em;
@@ -82,10 +87,9 @@
 }
 
 
-
-
-/* Body */
-
+/* * * * * * * * * * * 
+        Body
+* * * * * * * * * * * */
 .bodyTitle{
     font-size: 3em;
     font-family: 'Roboto', sans-serif;
@@ -107,10 +111,6 @@
 
 .bodyHeight-25vh{
     min-height: 25vh;
-}
-
-.bodyImgTest{
-    background-color: red;
 }
 
 .bodyTwoBanner{
@@ -200,9 +200,10 @@
 }
 
 
+/* * * * * * * * * * * 
+        Carousel 
+* * * * * * * * * * * */
 
-
-/* Carousel  */
 .carouselFormat{
     display: flex;
     flex-direction: column;
@@ -228,14 +229,6 @@
     letter-spacing: 0.05em;
 }
 
-.carousel-control-prev-icon{
-    color: black;
-    background-color: black;
-}
-
-.carousel-control-next-icon{
-    background-color: black;
-}
 .carousel-indicators li {
     background-color: #e67e22;
     height: 8px;
@@ -259,9 +252,10 @@
 }
 
 
+/* * * * * * * * * * * 
+        Footer 
+* * * * * * * * * * * */
 
-
-/* Footer */
 .footer-Center{
     text-align: center;
 }
@@ -286,108 +280,129 @@
 }
 
 
+/* * * * * * * * * * * 
+        Animations 
+* * * * * * * * * * * */
 
-
-
-/* Animation */
 .fadeIn{
     animation-duration: 6s;
 }
 
 
 
-/* Media Queries */
+
+
+/* * * * * * * * * * * 
+    Media Queries
+* * * * * * * * * * * */
+
 
 /* Portrait iPhones */
-
 @media only screen 
 and (min-device-width : 375px) 
 and (max-device-width : 812px) 
 and (-webkit-device-pixel-ratio : 3)
 and (orientation : portrait) { 
 
-.headerBody{
-    text-align: center;
+    .headerBody{
+        text-align: center;
+    }
+
+    .headerLogo{
+        margin: 0;
+        padding-top: 2em;
+    }
+
+    .headerTitle{
+        margin: 0;
+        line-height: 3em;
+    }
+
+    .headerTitle-Welcome{
+        font-size: 4.5em;
+    }
+
+    .headerTitle-Secondary{
+        font-size: 3em;
+        padding-bottom: 0.5em;
+    }
+
+    .bodyTitle{
+        font-size: 2em;
+        text-align: center;
+    }
+
+    .bodyText-Center{
+        padding-left: 5vw;
+        padding-right: 5vw;
+    }
+
+    .imgWidth-100{
+        object-fit: contain;
+    }
+
+    .bodyHeight-75vh{
+        min-height: 60vh;
+    }
+
+    .bodyHeight-50vh{
+        min-height: 30vh;
+    }
+
+    .bodyMobileHeight-50vh{
+        min-height: 50vh;
+        margin-top: -10vh;
+    }
+
+    .bodyTwoBanner{
+        background-position: 55% 50%;
+    }
+
+    .bodyDash-Text{
+        padding-left: 5vw;
+        padding-top: 25vh;
+    }
+
+    .bodyDash-Text-Right{
+        padding-left: 6vw;
+        padding-right: 25vw; 
+    }
+
+    .bodyFourBanner{
+        background-position: 5% 50%;
+        margin-top: 2vh;
+    }
+
+    .bodyIcon-Star{
+        justify-content: center;
+    }
+
+    .carouselFormat{
+        padding: 0;
+    }
+
+    .carouselCaption{
+        padding-left: 15vw;
+        padding-right: 15vw;
+    }
 }
 
-.headerLogo{
-    margin: 0;
-    padding-top: 2em;
-}
 
-.headerTitle{
-    margin: 0;
-    line-height: 3em;
-}
+/* Portrait iPads */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) { 
 
-.headerTitle-Welcome{
-    font-size: 4.5em;
-}
+    .bodyTwoBanner{
+        background-position: 60% 50%;
+    }
 
-.headerTitle-Secondary{
-    font-size: 3em;
-    padding-bottom: 0.5em;
-}
+    .bodyFourBanner{
+        background-position: 40% 50%;
+    }
 
-.bodyTitle{
-    font-size: 2em;
-    text-align: center;
-}
-
-.bodyText-Center{
-    padding-left: 5vw;
-    padding-right: 5vw;
-}
-
-.imgWidth-100{
-    object-fit: contain;
-    
-}
-
-.bodyHeight-75vh{
-    min-height: 60vh;
-}
-
-.bodyHeight-50vh{
-    min-height: 30vh;
-}
-
-.bodyMobileHeight-50vh{
-    min-height: 50vh;
-    margin-top: -10vh;
-}
-
-.bodyTwoBanner{
-    background-position: 55% 50%;
-}
-
-.bodyDash-Text{
-    padding-left: 5vw;
-    padding-top: 25vh;
-}
-
-.bodyDash-Text-Right{
-    padding-left: 6vw;
-    padding-right: 25vw;
-   
-}
-
-.bodyFourBanner{
-    background-position: 5% 50%;
-    margin-top: 2vh;
-}
-
-.bodyIcon-Star{
-    justify-content: center;
-}
-
-.carouselFormat{
-    padding: 0;
-}
-
-.carouselCaption{
-    padding-left: 15vw;
-    padding-right: 15vw;
-}
-
+    .carouselCaption{
+        padding-top: 5vh;
+    }
 }
