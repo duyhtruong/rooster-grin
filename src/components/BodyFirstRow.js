@@ -28,7 +28,7 @@ class BodyFirstRow extends React.Component{
                         </div> 
                     </Col>
 
-                    <Col sm className='bodyHeight-75vh'><img className='imgWidth-100' src={imgClimb} alt='Climb' /></Col>
+                    <Col sm className='bodyMobileHeight-50vh'><img className='imgWidth-100' src={imgClimb} alt='Climb' /></Col>
                 </Row>
                 </Container>
         

@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Londrina+Outline|Roboto:400,500,700&display=swap');
 
+.container-fluid{
+    padding-left: 0;
+    padding-right:0;
+}
+/* Header  */
+
 .headerBody{
     background-image: url('./assets/hero.jpg');
     background-repeat: no-repeat;
@@ -37,6 +43,11 @@
     letter-spacing: 0.05em;
 }
 
+
+
+
+/* Buttons */
+
 .buttons{
     line-height: 1em;
     border: none;
@@ -64,6 +75,11 @@
     letter-spacing: 0.1em;
 }
 
+
+
+
+/* Body */
+
 .bodyTitle{
     font-size: 3em;
     font-family: 'Roboto', sans-serif;
@@ -77,8 +93,6 @@
 
 .bodyHeight-75vh{
     min-height: 75vh;
-    
-    
 }
 
 .bodyHeight-50vh{
@@ -135,7 +149,6 @@
     padding-left: 10vw;
     padding-right: 5em;
     height: 100%;
-    
 }
 
 .bodyLogo{
@@ -152,8 +165,6 @@
     border-color: #8e44ad;
     border-width: 1px;
     margin: 1em 1em 1em 1em;
-
-    
 }
 
 .bodyLogo-Label{
@@ -182,6 +193,10 @@
     background-color: #ecf0f1;
 }
 
+
+
+
+/* Carousel  */
 .carouselFormat{
     display: flex;
     flex-direction: column;
@@ -189,7 +204,6 @@
     padding-left: 10vw;
     padding-right: 2em;
     height: 100%;
-    
 }
 
 .carouselCaption{
@@ -198,7 +212,6 @@
     font-size: 0.80em;
     min-height: 25vh;
     font-family: 'Roboto', sans-serif;
-    
 }
 
 .carouselCaption-Title{
@@ -236,6 +249,10 @@
     font-size: 2em;
 }
 
+
+
+
+/* Footer */
 .footer-Center{
     text-align: center;
 }
@@ -259,6 +276,108 @@
     margin-left: 0.5em;
 }
 
+
+
+
+/* Animation */
 .fadeIn{
     animation-duration: 6s;
+}
+
+
+
+/* Media Queries */
+
+/* Portrait iPhones */
+
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 812px) 
+and (-webkit-device-pixel-ratio : 3)
+and (orientation : portrait) { 
+
+.headerBody{
+    text-align: center;
+}
+
+.headerLogo{
+    margin: 0;
+    padding-top: 2em;
+}
+
+.headerTitle{
+    margin: 0;
+    line-height: 3em;
+}
+
+.headerTitle-Welcome{
+    font-size: 4.5em;
+}
+
+.headerTitle-Secondary{
+    font-size: 3em;
+    padding-bottom: 0.5em;
+}
+
+.bodyTitle{
+    font-size: 2em;
+    text-align: center;
+}
+
+.bodyText-Center{
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+
+.imgWidth-100{
+    object-fit: contain;
+    
+}
+
+.bodyHeight-75vh{
+    min-height: 60vh;
+}
+
+.bodyHeight-50vh{
+    min-height: 30vh;
+}
+
+.bodyMobileHeight-50vh{
+    min-height: 50vh;
+    margin-top: -10vh;
+}
+
+.bodyTwoBanner{
+    background-position: 55% 50%;
+}
+
+.bodyDash-Text{
+    padding-left: 5vw;
+    padding-top: 25vh;
+}
+
+.bodyDash-Text-Right{
+    padding-left: 6vw;
+    padding-right: 25vw;
+   
+}
+
+.bodyFourBanner{
+    background-position: 5% 50%;
+    margin-top: 2vh;
+}
+
+.bodyIcon-Star{
+    justify-content: center;
+}
+
+.carouselFormat{
+    padding: 0;
+}
+
+.carouselCaption{
+    padding-left: 15vw;
+    padding-right: 15vw;
+}
+
 }
