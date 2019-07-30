@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b4cc03874cb5ca1b992b48b9af36f46a",
+    "revision": "3a8c20ad55af5d500cfc23a32042bd56",
     "url": "/rooster-grin/index.html"
   },
   {
-    "revision": "e52c29511f6c6b3e5f09",
-    "url": "/rooster-grin/static/css/main.652bd8e0.chunk.css"
+    "revision": "8d0318ff3cc1fbe38c57",
+    "url": "/rooster-grin/static/css/main.9e38abc8.chunk.css"
   },
   {
-    "revision": "174fe20d7abc3857cf52",
-    "url": "/rooster-grin/static/js/2.ce4664d1.chunk.js"
+    "revision": "36fcf404734f2316e297",
+    "url": "/rooster-grin/static/js/2.406336bb.chunk.js"
   },
   {
-    "revision": "e52c29511f6c6b3e5f09",
-    "url": "/rooster-grin/static/js/main.62510216.chunk.js"
+    "revision": "8d0318ff3cc1fbe38c57",
+    "url": "/rooster-grin/static/js/main.caa280a8.chunk.js"
   },
   {
     "revision": "fa1a943ebf280ed79813",
